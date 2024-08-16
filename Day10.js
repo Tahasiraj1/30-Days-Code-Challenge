@@ -46,6 +46,6 @@ class Student {
 const student = new Student('Alice', 90);
 console.log(student.getRecord());
 student.setName('Taha');
-student.setGrade(99);
+student.setGrade(80);
 console.log(student.getRecord());
 export {};
