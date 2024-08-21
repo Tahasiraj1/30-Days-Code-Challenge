@@ -29,7 +29,7 @@ function countConsonants(str) {
     return consonant;
 }
 console.log(countConsonants('hello')); // Output: 3
-console.log(countConsonants('TypeScript')); // Output: 7
+console.log(countConsonants('TypeScript')); // Output: 8
 console.log(countConsonants('AEIOUaeiou')); // Output: 0
 console.log(countConsonants('123')); // Output: 0
 export {};
