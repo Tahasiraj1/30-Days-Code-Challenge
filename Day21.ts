@@ -14,31 +14,18 @@ console.log(sumOfDigits(4567)); // Output: 22.
 
 // Q-42
 
-// ### Question 2: Count Consonants in a String
-// *Problem:*  
-// Write a function countConsonants that takes a string as input and returns the number of consonants in the string. Consonants are all alphabetical characters except a, e, i, o, u (both lowercase and uppercase).
-
-// *Example:*  
-// typescript
-// countConsonants("hello"); // Output: 3
-// countConsonants("TypeScript"); // Output: 7
-
-
-// *Hint:*  
-// Loop through the string and check each character to see if it is a consonant by excluding vowels.
-
 function countConsonants(str: string): number {
-    const vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'];
-    let consonant = 0;
+    const vowels = 'aeiouAEIOU';
 
-    for (let i = 0; i < str.length; i++) {
-        const char = str[i]
+    let consonants = 0;
+
+    for (const char of str) {
         if (/[a-zA-Z]/.test(char) && !vowels.includes(char)) {
-            consonant++;
+            consonants++;
         }
     }
 
-    return consonant;
+    return consonants;
 }
 
 console.log(countConsonants('hello'));      // Output: 3
