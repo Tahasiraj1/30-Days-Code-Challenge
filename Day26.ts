@@ -32,10 +32,5 @@ function averageOfNumbersInString(str: string): number {
 
 console.log(averageOfNumbersInString('The numbers are 12, 15, and 20.')); // Output: 15.666...
 console.log(averageOfNumbersInString('No numbers here!')); // Output: NaN
-//     return total / numbers.length;                                        //
-// }                                                                         //
-//                                                                           //
-// console.log(averageOfNumberString('The numbers are 12, 15, and 20.'));    //
-// console.log(averageOfNumberString('No numbers here!'));                   //
-// ////////////////////////////////////////////////////////////////////////////
+
 
