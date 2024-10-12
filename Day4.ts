@@ -34,5 +34,5 @@ function findDuplicates(numbers: number[]): number[] {
 
 const numbers = [1, 2, 3, 2, 4, 5, 5, 6, 3];
 const duplicates = findDuplicates(numbers);
-console.log(duplicates); // Output: [2, 5]
+console.log(duplicates); // Output: [2, 5, 3]
   
